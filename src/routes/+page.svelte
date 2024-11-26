@@ -1,3 +1,10 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import { fly } from 'svelte/transition';
+</script>
+
+<div
+	class=" font-fun text-rose500 title-container flex w-auto flex-col items-start justify-center gap-1"
+>
+	<h1 class=" sm:text-5xl md:text-7xl lg:text-8xl">studioCabbage</h1>
+	<p class="indent-1 sm:text-[0.97rem] md:text-xl">data visualization studio by Sam Hooker</p>
+</div>
