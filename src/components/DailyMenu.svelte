@@ -55,14 +55,14 @@
 					<!-- <div class="transition-container"> -->
 					<li
 						onclick={handleClick}
-						class="text-rose500 wrap-none -mb-1 flex w-[280px] select-none flex-col gap-0 border-2 border-lime-500 bg-slate-50 px-4 py-1 py-1.5"
+						class="text-rose500 wrap-none -mb-1 flex w-[340px] select-none flex-col gap-0 border-2 border-lime-500 bg-slate-50 px-4 py-1 py-1.5"
 					>
 						<a href={'/' + item.id + item.tagline}>
-							<h3 class="text-[0.94rem] font-semibold">
+							<h3 class="text-[0.88rem] font-semibold">
 								<span class="text-[0.65rem]">{item.id + 1}</span>
 								{item.title}
 							</h3>
-							<p class="indent-4 text-[0.8rem] opacity-80">{item.date}</p>
+							<p class="indent-4 text-[0.75rem] opacity-80">{item.date}</p>
 						</a>
 					</li>
 					<!-- </div> -->

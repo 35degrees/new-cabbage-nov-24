@@ -1,14 +1,20 @@
 [
   {
     "id": 0,
-    "title": "U.S. State Population",
+    "title": "US State Population",
     "date": "11-25-24",
     "tagline": "statepop"
   },
   {
     "id": 1,
-    "title": "California Tax Revenue",
+    "title": "US Non-farm Payroll since 1938",
     "date": "11-26-24",
     "tagline": "cataxrev"
+  },
+  {
+    "id": 2,
+    "title": "Box Office Results Nov 22-24 2024",
+    "date": "11-27-24",
+    "tagline": "nov24bo"
   }
 ]
