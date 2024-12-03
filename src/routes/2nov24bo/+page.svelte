@@ -144,6 +144,11 @@
 </script>
 
 
+<!-- <div
+	in:fade={{ duration: 200, delay: 900 }}
+	out:fade={{ duration: 200 }}
+	class="chart-container container absolute -z-50 flex flex-col items-center justify-start"
+> -->
 <div
 	in:fade={{ duration: 200, delay: 900 }}
 	out:fade={{ duration: 200 }}

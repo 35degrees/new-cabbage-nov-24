@@ -80,6 +80,11 @@
 	out:fade={{ duration: 200 }}
 	class="chart-container container absolute -z-50 flex flex-col items-center justify-start"
 >
+<!-- <div
+	in:fade={{ duration: 200, delay: 900 }}
+	out:fade={{ duration: 200 }}
+	class="chart-container container absolute -z-50 flex flex-col items-center justify-start"
+> -->
 	<h1
 		class="font-classic text-rose500 absolute text-center text-2xl sm:-top-10 sm:left-2 sm:text-xl md:-top-12 md:left-[11rem] md:text-2xl lg:left-[30.8rem] lg:text-3xl"
 	>

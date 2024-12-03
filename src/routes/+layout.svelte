@@ -7,7 +7,11 @@ import Nav from '../components/Nav.svelte';
 </script>
 
 <Nav />
-<div class="transition-container">
+
+
+			{@render children()}
+
+<!-- <div class="transition-container">
 	{#key data.pathname}
 		<div
 			in:fly={{ easing: cubicOut, y: 30, duration: 300, delay: 400 }}
@@ -16,7 +20,7 @@ import Nav from '../components/Nav.svelte';
 			{@render children()}
 		</div>
 	{/key}
-</div>
+</div> -->
 
 <style>
 	.transition-container {
